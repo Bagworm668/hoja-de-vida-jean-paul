@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #79c8e8;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 5px 0;
+}
+
+section {
+  margin-bottom: 40px; /* Aumenta el espacio entre secciones */
+  padding-bottom: 20px; /* Espacio entre la línea divisoria y el contenido */
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+img {
+  display: block; /* Alinea la imagen al centro horizontalmente */
+  margin: 0 auto 20px; /* Centra la imagen y añade espacio debajo */
+  width: 200px;
+  height: 250px;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+}
+
+/* Estilo para el último elemento de la sección */
+section:last-child {
+  margin-bottom: 0; /* Elimina el espacio inferior en la última sección */
+}
+
+/* División visual debajo del texto de introducción */
+.container > h2 {
+  background-color: #cfe4f8; /* Color pastel azul */
+  border-bottom: 1px solid #ccc; /* Línea divisoria debajo del texto */
+  padding-bottom: 20px; /* Espacio entre la línea divisoria y el texto */
+}
+
+/* División visual encima de la sección de información de contacto */
+section:nth-of-type(2) {
+  background-color: #cfe4f8; /* Color pastel azul */
+  border-top: 1px solid #ccc; /* Línea divisoria encima de la sección */
+  padding-top: 20px;
+}
+ 
